@@ -65,6 +65,4 @@ eureka:
       defaultZone: http://eureka6001.com:6001/eureka
   instance:
     instanceId: ${spring.application.name}:${server.port}
-    prefer-ip-address: true 
-emp:
-  name: zhangsan
+    prefer-ip-address: true
